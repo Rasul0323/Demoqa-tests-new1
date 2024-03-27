@@ -67,7 +67,7 @@ public class RegistrationPage {
         return this;
     }
     public RegistrationPage setHobby(String value) {
-       hobbies.$(byText("value")).click();
+       hobbies.$(byText(value)).click();
         return this;
     }
     public RegistrationPage uploadPicture(String value) {
